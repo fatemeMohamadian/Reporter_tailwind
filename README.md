@@ -8,9 +8,9 @@
 
                                                             😎😉  
                                                           
-![2](https://github.com/fatemeMohamadian/Project6-Bootstrap/assets/155579918/15c91542-e4d5-4507-a354-88245f5841cc)
-                                                            😎😉
-![1](https://github.com/fatemeMohamadian/Project6-Bootstrap/assets/155579918/aaa35d10-a13c-4d40-a14e-283642eb829c)
+![2](https://github.com/fatemeMohamadian/Reporter_tailwind/assets/155579918/df15b7c0-3057-4281-8d24-0641d56cd02a)
+
+![1](https://github.com/fatemeMohamadian/Reporter_tailwind/assets/155579918/3ed5289d-4390-4224-9ff4-744c1fedabf4)
 
                                                             😎😉  
 
