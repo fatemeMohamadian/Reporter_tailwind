@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporter</title>
+    <link rel="stylesheet" href="src/assets/font/fontello-bd0a2bfa/css/fontello.css">
+    <link rel="stylesheet" href="src/assets/css/style.css">
+</head>
+
+<body>
+    <main class="w-full 2xl:container mx-auto overflow-x-hidden">
+        <div class="row">
+            <header class="w-full flex flex-wrap mx-4 items-center justify-center my-3">
+                <div class="w-[25%] flex items-center justify-center">
+                    <img class="w-[80%]" src="src/assets/img/logo.png" alt="">
+                </div>
+                <nav class="w-[40%]">
+                    <ul
+                        class="relative w-full justify-center items-center list-none *:capitalize *:text-black *:font-menu *:font-semibold *:px-3 hidden md:flex">
+                        <li><a href="">about me</a></li>
+                        <li class="group"><a href="">articles</a>
+                            <ul
+                                class="transition-all duration-[.4s] group-hover:visible group-hover:opacity-[1] absolute top-[40px] left-[270px] list-none *:text-black *:px-4 w-[150px] h-[100px] bg-slate-300 *:my-2 opacity-0 invisible ">
+                                <li class=" transition-all duration-[.4s] hover:px-5"><a href="">travel</a></li>
+                                <li class="transition-all duration-[.4s] hover:px-5"><a href="">life style</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">contact</a></li>
+                    </ul>
+                </nav>
+                <div class="w-[10%]">
+                    <span class="md:hidden"><i class="icon-menu"></i></span>
+                </div>
+                <div class="flex flex-wrap w-full lg:w-[25%] my-3 lg:my-0">
+                    <input placeholder="Search Items" type="search"
+                        class="w-full lg:w-[60%] bg-slate-200 placeholder:text-[17px] outline-blue-700 h-8 rounded placeholder:px-2 placeholder:text-black placeholder:font-menu placeholder:italic"><i
+                        class="icon-search"></i>
+                </div>
+            </header>
+        </div>
+        <hr class="mx-14">
+        <div class="row">
+            <section class="w-full mt-5">
+                <h2 class="font-title font-bold text-[30px] ml-[70px]">Latest Articles</h2>
+            </section>
+        </div>
+        <div class="row">
+            <section class="w-full mt-10 flex flex-wrap justify-evenly">
+                <figure class=" w-full md:w-1/2 shadow-boxshadow relative">
+                    <img class="w-full" src="src/assets/img/post-1.jpg" alt="">
+                    <!-- <div class="">
+                        <span class=" px-2 bg-slate-600 text-white font-title py-[3px] rounded-sm text-[17px] mx-[10px] cursor-pointer">04 jun 2021</span>
+                        <span class=" px-2 bg-slate-600 text-white font-title py-[3px] rounded-sm text-[17px] cursor-pointer">3 minutes read</span>
+                    </div> -->
+                    <figcaption class="w-full *:capitalize *:ml-[20px] mt-[20px]">
+                        <span
+                            class="bg-slate-300 px-2 py-1 rounded-sm font-title hover:bg-blue-400 transition-all duration-[.4s] cursor-pointer">travel</span>
+                        <span
+                            class="bg-slate-300 px-2 py-1 rounded-sm font-title hover:bg-blue-400 transition-all duration-[.4s] cursor-pointer">news</span>
+                        <h2 class="mt-[15px] font-menu text-[35px] font-semibold">Is it Ethical to Travel Now? With that
+                            Freedom Comes Responsibility.</h2>
+                        <p class="mt-[15px] font-title text-[22px] text-black text-opacity-50">Heading Here is example
+                            of hedings. You can use this heading by following markdownify rules. For example: use # for
+                            heading 1 and use ###### for heading 6.</p>
+                        <a href=""
+                            class="relative leading-[60px] py-2 px-1 font-title before:absolute before:w-full before:h-[2px] before:bottom-0 before:left-0 before:-z-10 hover:before:h-full before:bg-green-500 transition-all duration-[.4s] before:transition-all before:duration-[.4s] before:content-['']">read
+                            full article</a>
+                        <div class="absolute top-[3%] left-[60%] flex">
+                            <span
+                                class=" px-2 bg-slate-600 text-white font-title py-[3px] rounded-sm text-[17px] mx-[10px] cursor-pointer">04
+                                jun 2021</span>
+                            <span
+                                class=" px-2 bg-slate-600 text-white font-title py-[3px] rounded-sm text-[17px] cursor-pointer">3
+                                minutes read</span>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="w-full lg:w-[20%] md:w-1/2 flex-wrap relative shadow-boxshadow h-[70%]">
+                    <img class="w-full" src="src/assets/img/author.jpg" alt="">
+                    <figcaption class="w-full *:capitalize *:ml-[20px] *:mt-[30px]">
+                        <h2 class="font-menu font-semibold text-[30px]">Hootan Safiyari</h2>
+                        <p class="font-title text-[18px] text-black text-opacity-50">Hello, Im Hootan Safiyari. A
+                            Content writter, Developer and Story teller. Working as a Content writter at CoolTech
+                            Agency. Quam nihil …</p>
+                        <a href=""
+                            class="w-full leading-[65px] py-2 px-1 font-title border-[1px] border-green-500 hover:bg-green-500 transition-all duration-[.4s] hover:text-white">know
+                            more</a>
+                    </figcaption>
+                </figure>
+            </section>
+        </div>
+        <div class="row">
+            <section class="w-full mt-[80px] flex flex-wrap justify-center items-center">
+                <div class="lg:w-[60%] w-full flex flex-wrap justify-evenly items-center *:my-[5px]">
+                    <figure class="w-full lg:w-[35%]">
+                        <img class="w-full" src="src/assets/img/post-2.jpg" alt="">
+                        <figcaption class="w-full *:capitalize *:mt-[10px] *:ml-[10px] xl:*:ml-0 ">
+                            <span
+                                class="text-[17px] bg-slate-300 px-2 py-1 bg-opacity-60 rounded-sm font-title hover:bg-green-500 transition-all duration-[.4s] cursor-pointer">travel</span>
+                            <h3 class="font-menu font-semibold text-[25px]">An Experiential Guide to Explore This
+                                Kingdom</h3>
+                            <p class="font-title text-opacity-60 text-black text-[18px]">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                …</p>
+                            <a href=""
+                                class="relative leading-[60px] py-2 px-1 font-title before:absolute before:w-full before:h-[2px] before:bottom-0 before:left-0 before:-z-10 hover:before:h-full before:bg-green-500 transition-all duration-[.4s] before:transition-all before:duration-[.4s] before:content-['']">read
+                                full article</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="w-full lg:w-[35%]">
+                        <img class="w-full" src="src/assets/img/ls-2.jpg" alt="">
+                        <figcaption class="w-full *:capitalize *:mt-[10px] *:ml-[10px] xl:*:ml-0 ">
+                            <span
+                                class="text-[17px] bg-slate-300 px-2 py-1 bg-opacity-60 rounded-sm font-title hover:bg-green-500 transition-all duration-[.4s] cursor-pointer">life
+                                style</span>
+                            <h3 class="font-menu font-semibold text-[25px]">What to Do in Houston: Ideas for Your Visit
+                            </h3>
+                            <p class="font-title text-opacity-60 text-black text-[18px]">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                …</p>
+                            <a href=""
+                                class="relative leading-[60px] py-2 px-1 font-title before:absolute before:w-full before:h-[2px] before:bottom-0 before:left-0 before:-z-10 hover:before:h-full before:bg-green-500 transition-all duration-[.4s] before:transition-all before:duration-[.4s] before:content-['']">read
+                                full article</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="w-full lg:w-[35%]">
+                        <img class="w-full" src="src/assets/img/cr-1.jpg" alt="">
+                        <figcaption class="w-full *:capitalize *:mt-[10px] *:ml-[10px] xl:*:ml-0 ">
+                            <span
+                                class="text-[17px] bg-slate-300 px-2 py-1 bg-opacity-60 rounded-sm font-title hover:bg-green-500 transition-all duration-[.4s] cursor-pointer">cruises</span>
+                            <span
+                                class="text-[17px] bg-slate-300 px-2 py-1 bg-opacity-60 rounded-sm font-title hover:bg-green-500 transition-all duration-[.4s] cursor-pointer">news</span>
+                            <h3 class="font-menu font-semibold text-[25px]">Alaska Cruises Will Restart as Biden Signs
+                                New Tourism Law</h3>
+                            <p class="font-title text-opacity-60 text-black text-[18px]">Heading Here is example of
+                                hedings. You can use this heading by following markdownify rules. For example: use # for
+                                …</p>
+                            <a href=""
+                                class="relative leading-[60px] py-2 px-1 font-title before:absolute before:w-full before:h-[2px] before:bottom-0 before:left-0 before:-z-10 hover:before:h-full before:bg-green-500 transition-all duration-[.4s] before:transition-all before:duration-[.4s] before:content-['']">read
+                                full article</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="w-full lg:w-[35%]">
+                        <img class="w-full" src="src/assets/img/cr-2.jpg" alt="">
+                        <figcaption class="w-full *:capitalize *:mt-[10px] *:ml-[10px] xl:*:ml-0 ">
+                            <span
+                                class="text-[17px] mx-[5px] bg-slate-300 bg-opacity-60 px-2 py-1 rounded-sm font-title hover:bg-green-500 transition-all duration-[.4s] cursor-pointer">cruises</span>
+                            <span
+                                class="text-[17px] bg-slate-300 px-2 py-1 bg-opacity-60 rounded-sm font-title hover:bg-green-500 transition-all duration-[.4s] cursor-pointer">news</span>
+                            <h3 class="font-menu font-semibold text-[25px]">U.S. Travel Association Calls on CDC to
+                                Remove Cruise Restrictions</h3>
+                            <p class="font-title text-opacity-60 text-black text-[18px]">Heading Here is example of
+                                hedings. You can use this heading by following markdownify rules. For example: use # for
+                                …</p>
+                            <a href=""
+                                class="relative leading-[60px] py-2 px-1 font-title before:absolute before:w-full before:h-[2px] before:bottom-0 before:left-0 before:-z-10 hover:before:h-full before:bg-green-500 transition-all duration-[.4s] before:transition-all before:duration-[.4s] before:content-['']">read
+                                full article</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="w-full lg:w-[35%]">
+                        <img class="w-full" src="src/assets/img/post-4.jpg" alt="">
+                        <figcaption class="w-full *:capitalize *:mt-[10px] *:ml-[10px] xl:*:ml-0 ">
+                            <span
+                                class="text-[17px] bg-slate-300 px-2 py-1 bg-opacity-60 rounded-sm font-title hover:bg-green-500 transition-all duration-[.4s] cursor-pointer">destination</span>
+                            <h3 class="font-menu font-semibold text-[25px]">Top 7 Reasons to Visit Denver This Summer
+                            </h3>
+                            <p class="font-title text-opacity-60 text-black text-[18px]">Heading Here is example of
+                                hedings. You can use this heading by following markdownify rules. For example: use # for
+                                …</p>
+                            <a href=""
+                                class="relative leading-[60px] py-2 px-1 font-title before:absolute before:w-full before:h-[2px] before:bottom-0 before:left-0 before:-z-10 hover:before:h-full before:bg-green-500 transition-all duration-[.4s] before:transition-all before:duration-[.4s] before:content-['']">read
+                                full article</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="w-full lg:w-[35%]">
+                        <img class="w-full" src="src/assets/img/post-8.jpg" alt="">
+                        <figcaption class="w-full *:capitalize *:mt-[20px] *:ml-[10px] xl:*:ml-0 ">
+                            <span
+                                class="text-[17px] bg-slate-300 bg-opacity-60 px-2 py-1 mx-[5px] rounded-sm font-title hover:bg-green-500 transition-all duration-[.4s] cursor-pointer">news</span>
+                            <span
+                                class="text-[17px] bg-slate-300 px-2 py-1 bg-opacity-60 rounded-sm font-title hover:bg-green-500 transition-all duration-[.4s] cursor-pointer">tips</span>
+                            <h3 class="font-menu font-semibold text-[25px]">An Experiential Guide to Explore This
+                                Kingdom</h3>
+                            <p class="font-title text-opacity-60 text-black text-[18px]">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                …</p>
+                            <a href=""
+                                class="relative leading-[60px] py-2 px-1 font-title before:absolute before:w-full before:h-[2px] before:bottom-0 before:left-0 before:-z-10 hover:before:h-full before:bg-green-500 transition-all duration-[.4s] before:transition-all before:duration-[.4s] before:content-['']">read
+                                full article</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="lg:w-[40%] w-full flex flex-wrap justify-center items-center">
+                    <h2 class="w-full ml-[100px] mb-[50px] mt-[10px] capitalize font-menu font-semibold text-[40px]">
+                        recommended</h2>
+                    <figure class="w-full lg:w-[55%]">
+                        <img class="w-full" src="src/assets/img/post-9.jpg" alt="">
+                        <figcaption class="w-full *:capitalize *:mt-[15px] *:ml-[10px] xl:*:ml-0">
+                            <h3 class="font-menu font-semibold text-[25px]">An Experiential Guide to Explore This
+                                Kingdom</h3>
+                            <p class="font-title text-opacity-60 text-black text-[18px]">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                …</p>
+                            <a href=""
+                                class="relative leading-[60px] py-2 px-1 font-title before:absolute before:w-full before:h-[2px] before:bottom-0 before:left-0 before:-z-10 hover:before:h-full before:bg-green-500 transition-all duration-[.4s] before:transition-all before:duration-[.4s] before:content-['']">read
+                                full article</a>
+                        </figcaption>
+                    </figure>
+                    <div class="w-full mt-[150px] flex justify-center items-center flex-wrap">
+                        <img class="w-[25%]" src="src/assets/img/post-5.jpg" alt="">
+                        <div class="w-[50%] *:ml-[15px]">
+                            <h5 class="font-menu font-semibold text-[22px]">These Are Making It Easier To Visit</h5>
+                            <p class="text-[15px] text-black opacity-80">Heading Here is example of hedings. You can use
+                                …</p>
+                        </div>
+                    </div>
+                    <div class="w-full mt-[35px] flex justify-center items-center flex-wrap">
+                        <img class="w-[25%]" src="src/assets/img/post-2.jpg" alt="">
+                        <div class="w-[50%] *:ml-[15px]">
+                            <h5 class="font-menu font-semibold text-[22px]">No Image Specified</h5>
+                            <p class="text-[15px] text-black opacity-80">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing …</p>
+                        </div>
+                    </div>
+                    <div class="w-full mt-[35px] flex justify-center items-center flex-wrap">
+                        <img class="w-[25%]" src="src/assets/img/post-9.jpg" alt="">
+                        <div class="w-[50%] *:ml-[15px]">
+                            <h5 class="font-menu font-semibold text-[22px]">Perfect For Fashion</h5>
+                            <p class="text-[15px] text-black opacity-80">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing …</p>
+                        </div>
+                    </div>
+                    <div class="w-full mt-[35px] flex justify-center items-center flex-wrap">
+                        <img class="w-[25%]" src="src/assets/img/cr-2.jpg" alt="">
+                        <div class="w-[50%] *:ml-[15px]">
+                            <h5 class="font-menu font-semibold text-[22px]">Record Utra Smooth Video</h5>
+                            <p class="text-[15px] text-black opacity-80">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing …</p>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-[60%] mt-[100px] ml-[73px] flex  flex-wrap">
+                        <h2 class="w-full mb-[50px] capitalize font-menu font-semibold text-[35px]">categories</h2>
+                        <span
+                            class="mx-[5px] my-[5px] bg-slate-300 px-2 py-1 rounded-sm font-title hover:bg-orange-500 transition-all duration-[.4s] cursor-pointer">computer(3)</span>
+                        <span
+                            class="mx-[5px] my-[5px] bg-slate-300 px-2 py-1 rounded-sm font-title hover:bg-orange-500 transition-all duration-[.4s] cursor-pointer">cruises(2)</span>
+                        <span
+                            class="mx-[5px] my-[5px] bg-slate-300 px-2 py-1 rounded-sm font-title hover:bg-orange-500 transition-all duration-[.4s] cursor-pointer">destination(1)</span>
+                        <span
+                            class="mx-[5px] my-[5px] bg-slate-300 px-2 py-1 rounded-sm font-title hover:bg-orange-500 transition-all duration-[.4s] cursor-pointer">internet(4)</span>
+                        <span
+                            class="mx-[5px] my-[5px] bg-slate-300 px-2 py-1 rounded-sm font-title hover:bg-orange-500 transition-all duration-[.4s] cursor-pointer">life
+                            style(2)</span>
+                        <span
+                            class="mx-[5px] my-[5px] bg-slate-300 px-2 py-1 rounded-sm font-title hover:bg-orange-500 transition-all duration-[.4s] cursor-pointer">news(5)</span>
+                        <span
+                            class="mx-[5px] my-[5px] bg-slate-300 px-2 py-1 rounded-sm font-title hover:bg-orange-500 transition-all duration-[.4s] cursor-pointer">travel(3)</span>
+                        <span
+                            class="mx-[5px] my-[5px] bg-slate-300 px-2 py-1 rounded-sm font-title hover:bg-orange-500 transition-all duration-[.4s] cursor-pointer">tips(1)</span>
+                        <span
+                            class="mx-[5px] my-[5px] bg-slate-300 px-2 py-1 rounded-sm font-title hover:bg-orange-500 transition-all duration-[.4s] cursor-pointer">telephone(1)</span>
+                        <span
+                            class="mx-[5px] my-[5px] bg-slate-300 px-2 py-1 rounded-sm font-title hover:bg-orange-500 transition-all duration-[.4s] cursor-pointer">website(4)</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row">
+            <footer class="bg-slate-900 w-full border mt-[100px] flex justify-center items-center flex-wrap">
+                <div class="w-full flex justify-center items-center my-[50px] ">
+                    <a href="#"><img class="text-white" src="src/assets/img/logo-white.png" alt=""></a>
+                </div>
+                <div class="w-full my-[25px]">
+                    <ul
+                        class="list-none flex justify-center items-center w-full *:px-[15px] *:capitalize *:font-menu *:font-semibold *:text-white hover:*:text-yellow-500 *:transition-all *:duration-[.4s]">
+                        <li><a href="">about</a></li>
+                        <li><a href="">elements</a></li>
+                        <li><a href="">privacy policy</a></li>
+                        <li><a href="">terms conditions</a></li>
+                        <li><a href="">404 page</a></li>
+                    </ul>
+                </div>
+                <div class="group relative w-full flex justify-end cursor-pointer">
+                    <img class="w-[180px] h-[180px] rounded-[50%] shadow-box1" src="src/assets/img/me.jpg" alt="">
+                    <ul
+                        class="group-hover:visible group-hover:opacity-[1] absolute top-0 lg:right-[13%] right-[40%] list-none *:text-orange-600 rotate-[18deg] translate-y-[-13px] hover:*:text-white transition-all duration-[.4s] invisible opacity-0">
+                        <li class="mb-[15px] translate-x-[10px]"><a
+                                href="https://www.instagram.com/fateme_mohamadiian.fed?igsh=YzVkODRmOTdmMw=="><i
+                                    class="icon-instagram text-[30px]"></i></a></li>
+                        <li class="mb-[15px]"><a href="http://www.linkedin.com/in/fateme-mohamadian-dev0824"><i
+                                    class="icon-linkedin text-[30px]"></i></a></li>
+                        <li class="mb-[15px] translate-x-[20px]"><a href="https://github.com/fatemeMohamadian"><i
+                                    class=" icon-github-squared text-[30px]"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+@font-face {
+    font-family: 'menu';
+    src: url("../font/PlayfairDisplay-SemiBold.ttf");
+    font-family: 'text';
+    src: url("../font/PlayfairDisplay-VariableFont_wght.ttf");
+    font-family: 'text2';
+    src: url("../font/Merriweather-Light.ttf");
+}
