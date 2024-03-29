@@ -10,6 +10,7 @@
                                                           
 ![2](https://github.com/fatemeMohamadian/Reporter_tailwind/assets/155579918/df15b7c0-3057-4281-8d24-0641d56cd02a)
 
+                                                             👩‍💻
 ![1](https://github.com/fatemeMohamadian/Reporter_tailwind/assets/155579918/3ed5289d-4390-4224-9ff4-744c1fedabf4)
 
                                                             😎😉  
